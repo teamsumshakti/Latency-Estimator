@@ -84,6 +84,5 @@ class Bullet(tk.Frame):
         b = tk.Button(self, text="Calculate", command=lambda: self.calculate())
         b.grid(row=0, column=2, columnspan=2, rowspan=2, sticky=tk.W + tk.E + tk.N + tk.S, padx=5, pady=5)
 
-
 app = App()
 app.mainloop()
